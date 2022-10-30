@@ -1,0 +1,1 @@
+This Landing Page project is orchestrated by a Fullstack development course I'm currently enrolled on Udemy. The essence of the project is basically me trying to utilise my Undestanding of Bootstrap in designing a webpage. STILL IN PROGRESS.
