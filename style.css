@@ -1,0 +1,47 @@
+html {
+    width: 100;
+    height: 100;
+    font-family: "montserrat", sans-serif;
+    background: url(header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-size: 2rem;
+    color: cyan;
+    text-transform: uppercase;
+}
+button{
+    color: white;
+    background-color: coral ;
+    padding: 1rem 1rem;
+    font-weight: 700;
+    border-radius: 300px;
+    font-style: oblique;
+    text-transform: uppercase;
+    border-color: blue;
+    }
+button:hover{
+        background-color: blue;
+    }
+    hr{
+        border-color: darkorange;
+        border-width: 1px;
+        max-width: 65px;
+    }
+.text-center{
+    text-align: center;
+}
+.section{
+    text-align: center;
+    }
+.container{
+    align-items: center;
+    height: 100px;
+}
+}
+    
+        /*" The "max-width" Property determines the length and with of a border or hr line
+    
