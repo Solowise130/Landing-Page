@@ -51,7 +51,16 @@ button:hover{
     }
     
     .text{
-        margin-top: 17rem;
+    margin-top: 17rem;
+    margin-top: 17rem;
+    animation-name: slide-in;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
 
     }
     
