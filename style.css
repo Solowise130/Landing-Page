@@ -49,19 +49,27 @@ button:hover{
         margin-top: 140px;  /* Adjust this value as needed */
         
     }
-    
-    .text{
-    margin-top: 17rem;
-    margin-top: 17rem;
-    animation-name: slide-in;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: both;
-
-
+    @keyframes slide-in {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
     }
+    
+    
+    .text {
+        margin-top: 10rem; /* Use "rem" for margin-top */
+        margin-top: 17rem;
+        animation-name: slide-in;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+    }
+    
     
 /* ... (rest of your CSS) ... */
